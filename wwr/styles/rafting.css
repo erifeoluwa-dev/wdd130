@@ -7,13 +7,17 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: var(--accent1-color);
+}
+
 header nav a {
     color: var(--accent2-color);
     text-decoration: none;
 }
 
 header img {
-    width: 100px;
+    width: 180px;
     height: auto;
 }
 
