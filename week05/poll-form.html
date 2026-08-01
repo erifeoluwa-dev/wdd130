@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h2>HTML Form - User Poll</h2>
+    </header>
+    <main>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Full Name: <input type="text" name="fullname" required></label></td>
+                </tr>
+                <tr>             
+                    <td><label>Email: <input type="email"  name="useremail" required></label></td>   
+                </tr>               
+                <label for="quantity">Select Quantity</label>
+                <select name="quantity" id="quantity">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>    
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+                <button type="submit">Submit Poll</button>
+                </table>
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Ojelade Ifeoluwa</p>
+    </footer>   
+</body>
+</html>

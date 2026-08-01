@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+                    <tr>
+                        <td><label for="fullname">Full Name:</label></td>
+                        <td><input type="text" id="fullname" name="fullname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="useremail">Email:</label></td>
+                        <td><input type="email" id="useremail" name="useremail" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <table>
+                    <tr>
+                        <td><label for="quantity">What is your favorite internet browser?</label></td>
+                        <td>
+                            <select name="quantity" id="quantity">
+                                <option value="chrome">Chrome</option>
+                                <option value="safari">Safari</option>
+                                <option value="edge">Edge</option>
+                                <option value="brave">Brave</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pet">Do you have a household pet?</label></td>
+                        <td><input type="checkbox" id="pet" name="pet"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="feedback">List the places you have lived:</label></td>
+                        <td>
+                            <textarea id="feedback" name="feedback" rows="4"
+                                placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    
+</body>
+</html>
